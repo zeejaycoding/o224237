@@ -1,0 +1,26 @@
+@{
+    ViewData["Title"] = "Architecture - Naimat";
+}
+<div class="text-center">
+    <h1 class="display-4 mb-4">Naimat Architecture 🛠️</h1>
+    <p class="text-lg mb-4">Naimat employs a modern three-tier architecture for scalability and efficiency:</p>
+    <div class="card-grid">
+        <div class="card">
+            <div class="card-icon">🌐</div>
+            <h4>Presentation</h4>
+            <p>React-based UI hosted on Azure Static Web Apps for fast, responsive user experience.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">⚙️</div>
+            <h4>Business Logic</h4>
+            <p>NestJS backend on Azure Container Apps, managing authentication, donations, and search.</p>
+        </div>
+        <div class="card">
+            <div class="card-icon">💾</div>
+            <h4>Data</h4>
+            <p>Azure Cosmos DB for user data and Azure Blob Storage for files, secured by Azure Key Vault.</p>
+        </div>
+    </div>
+    <img src="~/images/architecture.png" alt="Naimat System Architecture" class="img-architecture" />
+    <p class="leading-relaxed">AI services via FastAPI, integrated with Azure AI Vision/Search, enable intelligent food categorization and semantic search.</p>
+</div>
